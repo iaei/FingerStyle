@@ -4,11 +4,9 @@ body,html
 	padding: 0;
 	height: 100%;
 	width: 100%;
-	/*overflow: hidden;*/
 	background-color: #eee;
 
 }
-
 
 a:link
 {
@@ -84,20 +82,9 @@ article
 	position: absolute;
 	margin-left: -24.5%;
 
+
 }
 
-.yellow-right
-{
-	box-sizing: border-box;
-	width: 25%;
-	background-color: rgb(204, 170, 49);
-	padding: 20px;
-	text-align: left;
-	color: #756536;
-	position: absolute;
-	right: -24.5%;
-	/*top: -15%;*/
-}
 
 
 .yellow-left:hover
@@ -106,11 +93,9 @@ article
 	
 }
 
-
-.yellow-right:hover
-{	
-	right:0;
-	
+.after
+{
+	height:100px;
 }
 
 article
