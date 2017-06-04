@@ -19,7 +19,12 @@ a:visited
 
 }
 
+ul,li
+{
+	list-style: none;
+	margin:0;
 
+}
 header
 {
 	
@@ -70,6 +75,12 @@ article
 	/*display: none;*/
 }
 
+ul
+{
+	padding: 0;
+	position: relative;
+	/*left: -24.5%;*/
+}
 
 .yellow-left
 {
@@ -80,7 +91,7 @@ article
 	text-align: left;
 	color: #756536;
 	position: absolute;
-	margin-left: -24.5%;
+	left: -24.5%;
 
 
 }
@@ -89,7 +100,7 @@ article
 
 .yellow-left:hover
 {	
-	margin-left:0;
+	left:0;
 	
 }
 
