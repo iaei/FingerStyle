@@ -8,16 +8,14 @@ body,html
 
 }
 
-a:link
-{
-	color: #756536;
-}
 
-a:visited
+html
 {
-	color: #756536;
+	overflow: hidden;
 
 }
+
+
 
 ul,li
 {
@@ -30,21 +28,21 @@ header
 	
 	text-align: center;
 	position: relative;
-
-
-
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
 }
 
 header video
 {
 	width: 100%;
-	height: 100%;
+	/*height: 100%;*/
 	
 
 }
 
 
-#cover 
+.cover 
 {	
 	position: absolute;
 	top: 0;
@@ -57,7 +55,7 @@ header video
 }
 
 
-#cover p
+.cover p
 {
 	width: 100%;
 	/*height: 100%;*/
@@ -69,11 +67,12 @@ header video
 	
 }
 
-article
+#article
 {
 	height: 100%;
 	/*display: none;*/
 }
+
 
 ul
 {
@@ -82,37 +81,6 @@ ul
 	/*left: -24.5%;*/
 }
 
-.yellow-left
-{
-	box-sizing: border-box;
-	width: 25%;
-	background-color: rgb(204, 170, 49);
-	padding: 20px;
-	text-align: left;
-	color: #756536;
-	position: absolute;
-	left: -24.5%;
-
-
-}
-
-
-
-.yellow-left:hover
-{	
-	left:0;
-	
-}
-
-.after
-{
-	height:100px;
-}
-
-article
-{
-	margin-top: 5%;
-}
 
 .container
 {
@@ -128,4 +96,139 @@ section
 	font-size: 16px;
 	line-height: 1.6em;
 }
+
+article
+{
+	padding-top:1%;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+
+#footer
+{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#summary
+{
+	width: 100%;
+	height: 80%;
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+
+#wrap
+{
+	width: 80%;
+	margin:0 auto;
+}
+#summary p
+{
+	line-height: 2.5em;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #737373;
+
+}
+
+#download
+{
+	width: 200px;
+	height:60px;
+	background-color: rgb(204, 170, 49);
+	color: #fff;
+	text-align: center;
+	/*font-family: "微软雅黑";*/
+	font-size: 20px;
+	line-height: 60px;
+	margin: 0 auto;
+	box-shadow: 1px 1px 6px #666;
+	border-radius: 3px;
+}
+
+#download:hover
+{
+	box-shadow: none;
+}
+
+#download a
+{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	height: inherit;
+}
+
+
+#contact
+{
+	background-image: url(../media/footer.jpg);
+	height:20%;
+	position: relative;
+}
+
+
+
+
+#contact ul
+{
+	float: right;
+	position: absolute;
+	right: 50px;
+	bottom: 20px;
+}
+
+#contact ul li
+{
+	display: inline-block;
+	color: rgba(197, 197, 197, 0.83);
+	margin-right: 20px;
+	cursor: pointer;
+
+}
+
+
+#contact ul li a:hover
+{
+	color: rgb(226, 226, 226);
+}
+
+#contact .cover
+{
+	background-color: rgba(84, 84, 84, 0.85);
+}
+
+
+#changePage
+{
+	/*background-color: #fff;*/
+	position: fixed;
+	width: 3%;
+	right: 1%;
+	bottom: 50%;
+	text-align: center;
+	color: #fff;
+	/*opacity: 0.5;*/
+}
+
+#changePage ul li a i
+{
+	color: rgb(150, 118, 2);
+
+}
+
+
+
+a:link,a:visited
+{
+	color: rgba(197, 197, 197, 0.83);
+}
+
+
+
+
 
